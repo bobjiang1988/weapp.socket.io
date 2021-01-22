@@ -28,8 +28,10 @@
 
 
 # Feature
+This project is forked from [weapp-socketio/weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io), and support `socket.io@3.x`
 
-Full feature socket.io style implemented, based-on `socket.io@2.x` version, such as:
+
+Full feature socket.io style implemented, based-on `socket.io@3.x` version, such as:
 - send message queue
 - auto reconnect
 - ping, pong
