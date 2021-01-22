@@ -11,7 +11,7 @@ module.exports = {
   },
   devtool: 'source-map',
   plugins: [
-    new webpack.NormalModuleReplacementPlugin(/debug/g, process.cwd() + '/support/debug.js'),
+    // new webpack.NormalModuleReplacementPlugin(/debug/g, process.cwd() + '/support/debug.js'),
     new webpack.NormalModuleReplacementPlugin(/^ws$/g, process.cwd() + '/src/wx-ws.js'),
     new webpack.NormalModuleReplacementPlugin(/^.\/websocket-constructor$/g, process.cwd() + '/src/websocket-constructor.js'),
     new webpack.NormalModuleReplacementPlugin(/^.\/transports\/index$/g, process.cwd() + '/src/transport.js'),
